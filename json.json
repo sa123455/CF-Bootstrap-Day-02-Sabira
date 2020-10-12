@@ -1,0 +1,26 @@
+var actors = `
+[
+    {
+        "name": "Rami Malek",
+        "age": 39
+        
+        
+    },
+    {
+        "name": "Lucy Boynton",
+        "age": 26
+        
+        
+    },
+    {
+        "name": "Brian May",
+        "age": 73
+        
+        
+    }
+  
+
+
+
+
+]`;

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1dd2006b34.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!--tabs-->
+
+
+    <title>Advanced</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <ul class="nav justify-content-end p-3 bg-secondary right-tabs">
+            <li class="nav-item">
+                <a class="nav-link  text-white" href="#tab-panel-home" data-toggle="tab">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link  text-white" href="#tab-panel-1" data-toggle="tab">Plot</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#tab-panel-2" data-toggle="tab">Actors</a>
+            </li>
+            <li class="nav-item">
+                <!-- use the title attribute to show a tooltip with the full long name
+               in case the tab is trucated-->
+                <a class="nav-link text-white" href="#tab-panel-3" title="More Description Here" data-toggle="tab">Reviews</a
+          >
+        </li>
+      </ul>
+      
+      <div class="tab-content horisontal mt-3 mb-5">
+        <article class="tab-pane container" id="tab-panel-home">
+           
+        </article>
+        <article class="tab-pane container" id="tab-panel-1">
+            The film opens in 1985 with Queen preparing to take the stage at Bob Geldof's benefit concert Live Aid at Wembley Stadium. The story flashes back to 1970 when "Freddie" Farrokh Bulsara works as a baggage handler at Heathrow Airport and lives with his parents and sister. Freddie goes to a pub to see the band Smile. As he seeks them out after the show, Freddie is attracted to Mary Austin and learns that she works at the boutique Biba. Freddie finds drummer Roger Taylor and guitarist Brian May and learns that their lead singer, Tim Staffell just quit. Freddie offers himself as a replacement and impresses them with his vocal ability.
+        </article>
+        <article class="tab-pane container justify-content-center" id="tab-panel-2">
+          <img  class="img mr-5" src="actor1.jpg">
+          <img  class="img mr-5" src="actor2.jpg">
+          <img  class="img mr-5" src="actor3.jpg">
+        </article>
+        <article class="tab-pane container" id="tab-panel-3">
+          Review *****
+        </article>
+      </div>
+
+    <!--Vertical pills-->
+    <div class="row">
+        <div class="col-2">
+
+            <ul class="nav flex-column nav-tabs left-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#tab-panel-01" data-toggle="tab">Actor 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#tab-panel-02" data-toggle="tab">Actor 2</a>
+            </li>
+            <li class="nav-item">
+                <!-- use the title attribute to show a tooltip with the full long name
+               in case the tab is trucated-->
+                <a class="nav-link" href="#tab-panel-03" title="More Description Here" data-toggle="tab">Actor 3</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="col-4 ml-auto mr-auto">
+      
+      <div class="tab-content vertical">
+        <article class="tab-pane container active" id="tab-panel-01">
+         <img class="img"  src="actor1.jpg">
+        </article>
+        <article class="tab-pane container" id="tab-panel-02">
+            <img class="img" src="actor2.jpg">
+        </article>
+        <article class="tab-pane container" id="tab-panel-03">
+            <img class="img" src="actor3.jpg">
+        </article>
+      </div>
+    </div>
+</div>
+<!--Close container-fluid-->
+</div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="json.json"></script>
+    <script src="script.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
